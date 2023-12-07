@@ -1,0 +1,16 @@
+#ifndef graphics_included
+#define graphics_included
+
+static char switch_update_interrupt_sense();
+
+void switch_init();
+
+void switch_interrupt_handler();
+
+void wdt_handler();
+
+void update_shape();
+
+void main();
+  
+#endif

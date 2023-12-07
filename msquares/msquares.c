@@ -111,8 +111,6 @@ void main()
     P1OUT |= LED;	/* led on */
   }
 }
-
-    
     
 void
 update_shape()
@@ -140,7 +138,6 @@ update_shape()
   last_position = pos;
   last_color = color;
 }
-
 
 /* Switch on S2 */
 void
