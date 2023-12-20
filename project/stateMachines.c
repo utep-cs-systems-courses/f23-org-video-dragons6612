@@ -20,7 +20,7 @@ char toggle_red()		/* always toggle! */
 }
 
 togG;
-/*char toggle_green()	/* only toggle green if red is on!  
+/*char toggle_green()	only toggle green if red is on!  
 {
   char changed = 0;
   if (red_on) {
@@ -29,7 +29,6 @@ togG;
   }
   return changed;
 }*/
-
 
 void state_advance()		/* alternate between toggling red & green */
 {

@@ -3,11 +3,13 @@
 
 //void wdt_handler();
 
-void f1();
+void draw1();
 
-void f2();
+void draw2();
 
-void f3();
+void draw3();
+
+void draw3();
 
 void main();
   

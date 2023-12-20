@@ -17,9 +17,6 @@ button.elf: ${COMMON_OBJECTS} p1_interrupt_handler.o graphics.o led.o switches.o
 load: button.elf
 	msp430loader.sh button.elf
 
-#load-s: button.elf
-#	msp430loader.sh button.elf
-
 clean:
 	rm -f *.o *.elf
 
